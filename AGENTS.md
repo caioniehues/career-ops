@@ -230,6 +230,11 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 - `article-digest.md` has detailed proof points (optional)
 - **NEVER hardcode metrics** -- read them from these files at evaluation time
 
+### Domain Docs
+
+- `CONTEXT.md` (project root) -- canonical glossary. Use these exact terms (e.g. **Posting** = the listing, **Offer** = the state; **Pipeline** = inbox, **Tracker** = ledger). Read it before naming domain concepts.
+- `docs/adr/*` -- Architecture Decision Records explaining *why* the system is shaped as it is (two-layer data contract, markdown-first tracker, zero-token scanner, mandatory Playwright verification, CLI-agnostic `AGENTS.md`, legitimacy separate from score).
+
 ---
 
 ## Ethical Use -- CRITICAL
